@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    gap: 15px;
+    padding: 20px;
+    background-color: azure;
+
+}
+.grid-container div {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
